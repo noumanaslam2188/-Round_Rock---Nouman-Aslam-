@@ -1,0 +1,61 @@
+.reviewCard {
+  height: 200px;
+  width: 500px;
+  background: #fff;
+  border-radius: 30px;
+  margin-left: 18px;
+  margin-bottom: 40px;
+}
+
+.userImage {
+  width: 60px;
+  height: 60px;
+  margin-left: -82%;
+  margin-top: 20px;
+  //   background-color: aquamarine;
+}
+
+.content {
+  //   background-color: pink;
+  width: 80%;
+  height: 150px;
+  margin-left: 18%;
+  margin-top: -12%;
+  text-align: start;
+  > h4 {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: #50b2ea;
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+  }
+}
+
+.icon {
+    margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  background: #50b2ea;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 75%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
+
+
+.divicon{
+    display: flex;
+    margin-top: 7px;
+}
